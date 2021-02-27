@@ -1,150 +1,22 @@
-﻿生成启动时间为 2021/2/27 15:15:04。
+﻿生成启动时间为 2021/2/27 1:14:54。
      1>项目“D:\C语言\Microsoft VC2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计.vcxproj”在节点 2 上(build 个目标)。
-     1>PrepareForBuild:
-         正在创建目录“D:\C语言\Microsoft VC2010 express\第六章 用函数实现模块化程序设计\Debug\”。
-       InitializeBuildStatus:
+     1>InitializeBuildStatus:
          正在创建“Debug\第六章 用函数实现模块化程序设计.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt test.c
          test.c
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(64): error C2084: 函数“int main()”已有主体
-                 d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(33) : 参见“main”的前一个定义
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(108): error C2084: 函数“int fun(int)”已有主体
-                 d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(7) : 参见“fun”的前一个定义
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(152): warning C4013: “gcd”未定义；假设外部返回 int
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(154): warning C4013: “lcm”未定义；假设外部返回 int
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(247): warning C4047: “函数”:“int”与“int [10]”的间接级别不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(247): warning C4024: “fun”: 形参和实参 1 的类型不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(247): warning C4020: “fun”: 实参太多
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(304): warning C4013: “sort”未定义；假设外部返回 int
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(313): error C2371: “sort”: 重定义；不同的基类型
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(338): error C2082: 形参“m”的重定义
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(339): error C2082: 形参“n”的重定义
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(340): error C2082: 形参“array”的重定义
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(344): error C2109: 下标要求数组或指针类型
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(349): error C2109: 下标要求数组或指针类型
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(350): error C2109: 下标要求数组或指针类型
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(368): warning C4031: 第二个形参表比第一个长
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(368): warning C4028: 形参 1 与声明不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(368): error C2371: “fun”: 重定义；不同的基类型
-                 d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(7) : 参见“fun”的声明
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(405): error C2371: “fun”: 重定义；不同的基类型
-                 d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(7) : 参见“fun”的声明
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(428): warning C4047: “函数”:“char *”与“int”的间接级别不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(428): warning C4024: “fun”: 形参和实参 1 的类型不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(428): error C2198: “fun”: 用于调用的参数太少
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(428): error C2095: “printf”: 实参具有“void”类型 : 参数 2
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(437): error C2371: “fun”: 重定义；不同的基类型
-                 d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(7) : 参见“fun”的声明
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(445): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(462): warning C4133: “函数”: 从“double [6]”到“char *”的类型不兼容
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(462): error C2095: “printf”: 实参具有“void”类型 : 参数 2
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(495): error C2198: “fun”: 用于调用的参数太少
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(505): error C2371: “fun”: 重定义；不同的基类型
-                 d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(7) : 参见“fun”的声明
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(524): warning C4047: “函数”:“char *”与“int”的间接级别不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(524): warning C4024: “fun”: 形参和实参 1 的类型不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(524): error C2198: “fun”: 用于调用的参数太少
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(524): error C2095: “printf”: 实参具有“void”类型 : 参数 2
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(534): error C2371: “sort”: 重定义；不同的基类型
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(587): error C2371: “fun”: 重定义；不同的基类型
-                 d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(7) : 参见“fun”的声明
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(607): warning C4047: “函数”:“char *”与“long”的间接级别不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(607): warning C4024: “fun”: 形参和实参 1 的类型不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(607): error C2198: “fun”: 用于调用的参数太少
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(607): error C2095: “printf”: 实参具有“void”类型 : 参数 2
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(642): warning C4047: “函数”:“char”与“char [100]”的间接级别不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(642): warning C4024: “fun”: 形参和实参 2 的类型不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(686): warning C4133: “函数”: 从“int [20]”到“char *”的类型不兼容
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(725): error C2198: “fun”: 用于调用的参数太少
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(763): warning C4133: “函数”: 从“int [10]”到“char *”的类型不兼容
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(779): warning C4005: “N”: 宏重定义
-                 d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(651) : 参见“N”的前一个定义
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(803): warning C4133: “函数”: 从“int [5]”到“char *”的类型不兼容
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(816): error C2371: “fun”: 重定义；不同的基类型
-                 d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(7) : 参见“fun”的声明
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(836): warning C4133: “函数”: 从“int [6]”到“char *”的类型不兼容
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(836): error C2095: “printf”: 实参具有“void”类型 : 参数 2
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(845): error C2371: “fun”: 重定义；不同的基类型
-                 d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(7) : 参见“fun”的声明
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(872): warning C4047: “函数”:“char *”与“int”的间接级别不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(872): warning C4024: “fun”: 形参和实参 1 的类型不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(872): error C2198: “fun”: 用于调用的参数太少
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(872): error C2095: “printf”: 实参具有“void”类型 : 参数 3
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(881): error C2371: “fun”: 重定义；不同的基类型
-                 d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(7) : 参见“fun”的声明
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(904): warning C4047: “函数”:“char *”与“int”的间接级别不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(904): warning C4024: “fun”: 形参和实参 1 的类型不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(904): error C2198: “fun”: 用于调用的参数太少
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(904): error C2120: 对于所有类型“void”非法
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(918): error C2371: “fun”: 重定义；不同的基类型
-                 d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(7) : 参见“fun”的声明
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(949): warning C4133: “函数”: 从“int [10]”到“char *”的类型不兼容
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(949): error C2095: “printf”: 实参具有“void”类型 : 参数 2
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1024): error C2371: “fun”: 重定义；不同的基类型
-                 d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(7) : 参见“fun”的声明
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1048): warning C4047: “函数”:“char *”与“int”的间接级别不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1048): warning C4024: “fun”: 形参和实参 1 的类型不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1048): error C2198: “fun”: 用于调用的参数太少
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1048): error C2095: “printf”: 实参具有“void”类型 : 参数 2
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1057): error C2371: “fun”: 重定义；不同的基类型
-                 d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(7) : 参见“fun”的声明
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1073): warning C4047: “函数”:“char *”与“int”的间接级别不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1073): warning C4024: “fun”: 形参和实参 1 的类型不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1073): error C2198: “fun”: 用于调用的参数太少
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1073): error C2095: “printf”: 实参具有“void”类型 : 参数 2
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1108): error C2371: “fun”: 重定义；不同的基类型
-                 d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(7) : 参见“fun”的声明
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1131): warning C4047: “函数”:“char *”与“int”的间接级别不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1131): warning C4024: “fun”: 形参和实参 1 的类型不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1131): error C2198: “fun”: 用于调用的参数太少
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1131): error C2095: “printf”: 实参具有“void”类型 : 参数 2
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1138): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1142): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1143): error C2143: 语法错误 : 缺少“;”(在“类型”的前面)
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1144): error C2065: “i”: 未声明的标识符
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1144): error C2065: “i”: 未声明的标识符
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1144): error C2065: “n”: 未声明的标识符
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1144): error C2065: “i”: 未声明的标识符
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1146): error C2065: “k”: 未声明的标识符
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1146): error C2065: “k”: 未声明的标识符
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1146): error C2065: “i”: 未声明的标识符
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1146): error C2065: “k”: 未声明的标识符
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1148): error C2065: “i”: 未声明的标识符
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1148): error C2065: “k”: 未声明的标识符
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1151): error C2065: “k”: 未声明的标识符
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1151): error C2065: “i”: 未声明的标识符
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1152): error C2065: “s”: 未声明的标识符
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1152): error C2065: “i”: 未声明的标识符
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1154): error C2065: “s”: 未声明的标识符
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1164): warning C4047: “函数”:“char *”与“int”的间接级别不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1164): warning C4024: “fun”: 形参和实参 1 的类型不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1164): error C2198: “fun”: 用于调用的参数太少
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1164): error C2095: “printf”: 实参具有“void”类型 : 参数 2
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1175): warning C4005: “N”: 宏重定义
-                 d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(779) : 参见“N”的前一个定义
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1208): warning C4047: “函数”:“char *”与“int [3][4]”的间接级别不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1208): warning C4024: “fun”: 形参和实参 1 的类型不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1208): warning C4047: “函数”:“char”与“int [4]”的间接级别不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1208): warning C4024: “fun”: 形参和实参 2 的类型不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1224): warning C4005: “N”: 宏重定义
-                 d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1175) : 参见“N”的前一个定义
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1268): error C2371: “sum”: 重定义；不同的基类型
-                 d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1225) : 参见“sum”的声明
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1275): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1286): warning C4047: “函数”:“int (*)[3]”与“int”的间接级别不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1286): warning C4024: “sum”: 形参和实参 1 的类型不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1297): error C2371: “fun”: 重定义；不同的基类型
-                 d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(7) : 参见“fun”的声明
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1319): warning C4047: “函数”:“char *”与“int”的间接级别不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1319): warning C4024: “fun”: 形参和实参 1 的类型不同
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1319): error C2198: “fun”: 用于调用的参数太少
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1319): error C2180: 控制表达式的类型为“void”
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1332): error C2371: “fun”: 重定义；不同的基类型
-                 d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(7) : 参见“fun”的声明
-     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1356): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
-     1>已完成生成项目“D:\C语言\Microsoft VC2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计.vcxproj”(build 个目标)的操作 - 失败。
+     1>d:\c语言\microsoft vc2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\test.c(1355): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\C语言\Microsoft VC2010 express\第六章 用函数实现模块化程序设计\Debug\第六章 用函数实现模块化程序设计.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\第六章 用函数实现模块化程序设计.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\C语言\Microsoft VC2010 express\第六章 用函数实现模块化程序设计\Debug\第六章 用函数实现模块化程序设计.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\C语言\Microsoft VC2010 express\第六章 用函数实现模块化程序设计\Debug\第六章 用函数实现模块化程序设计.lib" /MACHINE:X86 Debug\test.obj
+         LINK : 没有找到 D:\C语言\Microsoft VC2010 express\第六章 用函数实现模块化程序设计\Debug\第六章 用函数实现模块化程序设计.exe 或上一个增量链接没有生成它；正在执行完全链接
+         第六章 用函数实现模块化程序设计.vcxproj -> D:\C语言\Microsoft VC2010 express\第六章 用函数实现模块化程序设计\Debug\第六章 用函数实现模块化程序设计.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\C语言\Microsoft VC2010 express\第六章 用函数实现模块化程序设计\Debug\第六章 用函数实现模块化程序设计.exe;#1" /manifest "Debug\第六章 用函数实现模块化程序设计.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Debug\第六章 用函数实现模块化程序设计.unsuccessfulbuild”。
+         正在对“Debug\第六章 用函数实现模块化程序设计.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\C语言\Microsoft VC2010 express\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计\第六章 用函数实现模块化程序设计.vcxproj”(build 个目标)的操作。
 
-生成失败。
+生成成功。
 
-已用时间 00:00:00.43
+已用时间 00:00:00.30
